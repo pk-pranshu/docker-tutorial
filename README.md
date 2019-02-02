@@ -5,18 +5,18 @@
 
 #### useful commands --
 
-``docker images
+``docker images``
 
-docker run -it imageID /bin/sh  
+``docker run -it imageID /bin/sh``
 
-docker run -it imageID node server.js  
+``docker run -it imageID node server.js  ``
 
-docker run -p 8000:8000 -it imageID node server.js  
+``docker run -p 8000:8000 -it imageID node server.js  ``
 
-docker ps
+``docker ps``
 
-docker stop imageID
+``docker stop imageID``
 
-docker run -d -p 8000:8000 imageID  
+``docker run -d -p 8000:8000 imageID ``
 
-docker build . -t flipp-node:latest  ``
+``docker build . -t flipp-node:latest  ``
